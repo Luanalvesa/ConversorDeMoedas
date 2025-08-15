@@ -22,37 +22,7 @@ Java Development Kit (JDK): Versão 8 ou superior.
 
 Apache Maven: Versão 3.x.x ou superior.
 
-Como Rodar o Projeto
-Siga os passos abaixo para clonar o projeto e executá-lo em sua máquina local.
 
-Clone o repositório:
-
-Bash
-
-git clone https://github.com/Luanalvesa/ConversorDeMoedas.git
-Navegue até o diretório do projeto:
-
-Bash
-
-cd ConversorDeMoedas
-Configurar a API Key (opcional, dependendo da sua implementação):
-
-Se seu projeto usar uma API externa, obtenha sua chave.
-
-Crie um arquivo de configuração (ex: config.properties) e adicione sua chave.
-
-Execute o projeto com Maven:
-
-Compile e gere o executável (JAR) do projeto:
-
-Bash
-
-mvn clean install
-Execute o JAR gerado (o nome do arquivo pode variar):
-
-Bash
-
-java -jar target/conversor-de-moedas-1.0-SNAPSHOT.jar
 Estrutura de Arquivos
 A estrutura do projeto segue o padrão Maven:
 
